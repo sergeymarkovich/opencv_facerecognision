@@ -37,11 +37,12 @@ while True:
             cv2.imwrite("dataset/User." + str(face_id) + '.' + str(count) + ".jpg", img[y:y + h, x:x + w])
             print(f"Take a screenshot number {count}")
         elif key == ord('q'):
+            print("\n [INFO] Program exited with hot key")
             break
-        elif count >= 20: # Take 10 face sample and stop video
-             break
+        elif count >= 20: # Take 20 face sample and stop video
+            print("\n [INFO] 20 Screens taken. Exiting Program...")
+            break
 
 # Do a bit of cleanup
-print("\n [INFO] 20 Screens taken. Exiting Program...")
 cam.release()
 cv2.destroyAllWindows()
