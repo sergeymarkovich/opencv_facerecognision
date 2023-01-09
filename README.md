@@ -24,7 +24,7 @@ Training faces from `dataset/` dir and make .yml file with training model:
 - Model will be saved on `trainer/` directory. (if it does not exist, need to create one)
 - If need to using PIL, install pillow library with `pip install pillow`
 
-# face record dataset
+## face record dataset
 Real Time Face Recogition
 - Each face stored on `dataset/` dir, should have a unique numeric integer ID as 1, 2, 3, etc
 - trained faces model should be on `trainer/` dir
