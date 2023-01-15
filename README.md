@@ -2,6 +2,7 @@
 Real-time face recognition project with OpenCV and Python
 
 ## What to add in next versions
+* rewrite .gitignore file
 * add gopro as camera
 * write docker image or python script to run on rasberry PI
 * modificate `names related to id's: example ==> Sergey: id=1,  etc`... 
